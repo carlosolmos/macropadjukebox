@@ -1,0 +1,43 @@
+{
+  "vlcHost": "localhost:8888",
+  "serialPort": "/dev/ttyACM1",
+  "playlists": {
+    "00": {
+      "name": "_collections_"
+    },
+    "01": {
+      "name": "Death Cab For Cutie - Transatlanticism",
+      "file": "/home/pi/Music/DeathCabForCutie-Transatlanticism.m3u"
+    },
+    "02": {
+      "name": "Metallica - Metallica",
+      "file": "/home/pi/Music/Metallica-Metallica.m3u"
+    },
+    "03": {
+      "name": "Coldplay - Viva la Vida",
+      "file": "/home/pi/Music/Coldplay-VivalaVidaorDeathandAllHisFriends.m3u"
+    },
+    "04": {
+      "name": "ElephantGym-Dreams",
+      "file": "/home/pi/Music/ElephantGym-Dreams.m3u"
+    },
+    "05": {
+      "name": "Miles Davis - Kind of Blue",
+      "file": "/home/pi/Music/Miles Davis - Kind of Blue.m3u"
+    },
+    "06": {
+      "name": "RadioHead-InRainbowsLive",
+      "file": "/home/pi/Music/RadioHead-InRainbowsLive.m3u"
+    },
+    "07": {
+      "name": "djs-DeepandSoulfulHouse",
+      "file": "/home/pi/Music/djs-DeepandSoulfulHouse.m3u"
+    },
+    "08": {
+      "name": "djs-JazzyHiphopSet_Elly",
+      "file": "/home/pi/Music/djs-JazzyHiphopSet_Elly.m3u"
+    }
+  }
+}
+
+
