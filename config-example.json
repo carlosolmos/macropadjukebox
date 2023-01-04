@@ -1,0 +1,23 @@
+{
+  "vlcHost": "localhost:8888",
+  "serialPort": "/dev/ttyACM1",
+  "playlists": {
+    "00": {
+      "name": "_collections_"
+    },
+    "01": {
+      "name": "Metallica - Metallica",
+      "file": "/home/pi/Music/metallica.m3u"
+    },
+    "02": {
+      "name": "Miles Davis - Kind of Blue",
+      "file": "/home/pi/Music/milesdavis.m3u"
+    },
+    "03": {
+      "name": "RadioHead-InRainbowsLive",
+      "file": "/home/pi/Music/radiohead.m3u"
+    }
+  }
+}
+
+

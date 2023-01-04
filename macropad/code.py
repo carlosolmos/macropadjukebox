@@ -125,14 +125,14 @@ def processSerialInput(data):
 sendData('cmd|reset')
 while True:
     clearAll()
-    
+
     # Keypad Events
     key_event = macropad.keys.events.get()
     if key_event:
         if key_event.key_number < 12:
             if key_event.pressed:
                 macropad.pixels[key_event.key_number] = 0x002EB8
-                print(group[9].text)                
+                print(group[9].text)
                 print(controlKeys[key_event.key_number])
                 # send command
                 sendData(controlKeys[key_event.key_number][1])
@@ -140,7 +140,7 @@ while True:
             else:
                 macropad.pixels[key_event.key_number] = 0
                 group[9].text = controlKeys[9][0]
-    
+
     # Encoder Events
     # Read encoder position. If it's changed, switch PL
     position = macropad.encoder
@@ -160,7 +160,7 @@ while True:
         print(group[9].text)
         # send playlist change
         sendData('pl|{}'.format(pl_index))
-    else:        
+    else:
         group[9].text = controlKeys[9][0]
 
     # Read from serial line
